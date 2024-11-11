@@ -1,0 +1,13 @@
+from typing import Protocol
+
+class State(Protocol):
+
+    def włoż_monetę(self) -> None: ...
+
+    def zwróć_monetę(self) -> None: ...
+
+    def przekręć_gałkę(self) -> None: ...
+
+    def wydaj(self) -> None: ...
+
+    
